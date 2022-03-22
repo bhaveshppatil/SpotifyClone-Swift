@@ -6,3 +6,15 @@
 //
 
 import Foundation
+
+final class APIService {
+    static let shared = APIService()
+    
+    private init(){}
+    
+    public func getCurrentUserPrf(
+        completion : @escaping (Result<UserProfile , Error>) -> Void
+    ){
+        
+    }
+}

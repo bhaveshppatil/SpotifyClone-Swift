@@ -30,6 +30,7 @@
 		55578E9C27E33417001347FF /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55578E9B27E33417001347FF /* UserProfile.swift */; };
 		55578E9E27E33423001347FF /* Artist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55578E9D27E33423001347FF /* Artist.swift */; };
 		555B4E1E27E846C900567F85 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555B4E1D27E846C900567F85 /* Extensions.swift */; };
+		55D89AD227E8872F0047BEF9 /* AuthResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D89AD127E8872F0047BEF9 /* AuthResponse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,6 +59,7 @@
 		55578E9B27E33417001347FF /* UserProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
 		55578E9D27E33423001347FF /* Artist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Artist.swift; sourceTree = "<group>"; };
 		555B4E1D27E846C900567F85 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		55D89AD127E8872F0047BEF9 /* AuthResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthResponse.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,7 +78,7 @@
 			children = (
 				5530E1F727E326920070D9AE /* Controllers */,
 				5530E1F627E326880070D9AE /* Resources */,
-				5530E1F527E326810070D9AE /* ViewModels */,
+				5530E1F527E326810070D9AE /* Models */,
 				5530E1F427E326780070D9AE /* Managers */,
 				5530E1F327E326720070D9AE /* Views */,
 				5530E1DD27E3264A0070D9AE /* SpotifyClone-Swift */,
@@ -118,15 +120,16 @@
 			path = Managers;
 			sourceTree = "<group>";
 		};
-		5530E1F527E326810070D9AE /* ViewModels */ = {
+		5530E1F527E326810070D9AE /* Models */ = {
 			isa = PBXGroup;
 			children = (
 				55578E9727E333B6001347FF /* PlaylistVM.swift */,
 				55578E9927E333C8001347FF /* AudioTrack.swift */,
 				55578E9B27E33417001347FF /* UserProfile.swift */,
 				55578E9D27E33423001347FF /* Artist.swift */,
+				55D89AD127E8872F0047BEF9 /* AuthResponse.swift */,
 			);
-			path = ViewModels;
+			path = Models;
 			sourceTree = "<group>";
 		};
 		5530E1F627E326880070D9AE /* Resources */ = {
@@ -252,6 +255,7 @@
 				55578E8627E332D3001347FF /* WelcomeViewController.swift in Sources */,
 				55578E8A27E332F0001347FF /* ProfileViewController.swift in Sources */,
 				55578E7C27E3322B001347FF /* TabBarViewController.swift in Sources */,
+				55D89AD227E8872F0047BEF9 /* AuthResponse.swift in Sources */,
 				55578E9A27E333C8001347FF /* AudioTrack.swift in Sources */,
 				55578E7E27E3326B001347FF /* LibraryViewController.swift in Sources */,
 				55578E9827E333B6001347FF /* PlaylistVM.swift in Sources */,
